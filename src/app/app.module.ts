@@ -13,6 +13,7 @@ import {HomePageComponent } from './home-page/home-page.component';
 import { SetupHomePageComponent } from './setup-home-page/setup-home-page.component';
 import { ThirdComponent } from './third-page/third.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { FourthPageComponent } from './fourth-page/fourth-page.component';
 
 const routes = [
   {path: '', component: HomePageComponent},
@@ -30,7 +31,8 @@ const routes = [
     SearchPipe,
     HomePageComponent,
     SetupHomePageComponent,
-    ThirdComponent
+    ThirdComponent,
+    FourthPageComponent
   ],
   imports: [
     BrowserModule,
